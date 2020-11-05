@@ -1,13 +1,13 @@
 /* Fonts Imports */
-@import url(https://fonts.googleapis.com/css2?family=Vast+Shadow);
+@import url(https://fonts.googleapis.com/css2?family=Rochester);
 @import url(https://fonts.googleapis.com/css2?family=Nanum+Brush+Script);
+/* @import url(https://fonts.googleapis.com/css2?family=Vast+Shadow);
 @import url(https://fonts.googleapis.com/css2?family=Schoolbell);
 @import url(https://fonts.googleapis.com/css2?family=Special+Elite);
 @import url(https://fonts.googleapis.com/css2?family=Fredericka+the+Great);
 @import url(https://fonts.googleapis.com/css2?family=Cabin+Sketch);
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
-@import url(https://fonts.googleapis.com/css2?family=Rochester);
-@import url(https://fonts.googleapis.com/css2?family=Poiret+One);
+@import url(https://fonts.googleapis.com/css2?family=Poiret+One); */
 
 /* 
 Naum Brush Script @import url(https://fonts.googleapis.com/css2?family=Nanum+Brush+Script)
@@ -51,6 +51,7 @@ ul {
   border-top-width: 5px;
   border-top-style: dotted;
   border-top-color: #cfb53b;
+  
 
   border-bottom-width: 5px;
   border-bottom-style: dotted;
@@ -65,7 +66,7 @@ ul {
 
 #zen-supporting p{
   font-family: Nanum Brush Script ;  
-  font-size: 25px;
+  font-size: 32px;
   color: aliceblue;
 }
 
@@ -102,7 +103,7 @@ ul {
   font-family: Rochester,cursive;
   font-style: normal;
   font-weight: normal;
-  font-size: 30px;
+  font-size: 32px;
   color: aliceblue;
 
 }
@@ -110,13 +111,24 @@ ul {
   grid-row: 2;
   grid-column: 3;
   width: 70%;
-  margin-left: 1rem;
+  margin-left: 5rem;
+  padding-left: 2rem;
+
 
   font-family: Nanum Brush Script,cursive;
   font-style: normal;
   font-weight: normal;
-  font-size: 25px;
+  font-size: 27px;
   color: aliceblue;
+
+
+  border-left-width: 3px;
+  border-left-style: dashed;
+  border-left-color: #ffec97;
+  
+  border-right-width: 3px;
+  border-right-style: dashed;
+  border-right-color: #ffec97;
 }
 .preamble{
   margin-top: 1%;
@@ -128,30 +140,42 @@ ul {
 
 .preamble h3{
   font-family: Rochester;  
-  font-size: 40;
+  font-size: 40px;
   color: aliceblue;
 }
 .preamble p{
   font-family: Nanum Brush Script, cursive ;  
-  font-size: 25px;
+  font-size: 32px;
   color: aliceblue;
 }
 
 .explanation{
-  margin: 1%
+  margin: 1%;
+ 
+
+  
 }
 
 .participation{
-  margin: 1%
+  margin: 1%;
+  border-top-width: 3px;
+  border-top-style: dotted;
+  border-top-color: #ffec97;
 }
 
 .benefits{
-  margin: 1%
+  margin: 1%;
+  border-top-width: 3px;
+  border-top-style: dotted;
+  border-top-color: #ffec97;
 }
 
 .requirements{
   margin: 1%;
-  margin-bottom:5%
+  margin-bottom:5%;
+  border-top-width: 3px;
+  border-top-style: dotted;
+  border-top-color: #ffec97;
 }
 
 .zen-validate-html{
@@ -208,7 +232,9 @@ ul {
   background: url(assets/git.svg) no-repeat 0 0 transparent;
   vertical-align:middle;
 }
-
+.supporting footer {
+  margin-bottom:15px;
+}
 .sidebar h3{
   font-family: Rochester;  
   font-size: 40px;
@@ -223,8 +249,8 @@ ul {
 .design-selection{
   margin: 3%;
   padding:2%;
-  border: 5px;
-  border-style: dotted;
+  border: 3px;
+  border-style: dashed;
   border-color: #f8f8f8;
 }
 
@@ -232,15 +258,15 @@ ul {
 .design-archives{
   margin: 3%;
   padding:2%;
-  border: 5px;
-  border-style: dotted;
+  border: 3px;
+  border-style: dashed;
   border-color: #ffffff;
 }
 
 .zen-resources{
   margin: 3%;
   padding:2%;
-  border: 5px;
-  border-style: dotted;
+  border: 3px;
+  border-style: dashed;
   border-color: #ffffff;
 }

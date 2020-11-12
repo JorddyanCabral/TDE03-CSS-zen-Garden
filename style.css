@@ -1,22 +1,15 @@
 /* Fonts Imports */
 @import url(https://fonts.googleapis.com/css2?family=Rochester);
 @import url(https://fonts.googleapis.com/css2?family=Nanum+Brush+Script);
-/* @import url(https://fonts.googleapis.com/css2?family=Vast+Shadow);
-@import url(https://fonts.googleapis.com/css2?family=Schoolbell);
-@import url(https://fonts.googleapis.com/css2?family=Special+Elite);
-@import url(https://fonts.googleapis.com/css2?family=Fredericka+the+Great);
-@import url(https://fonts.googleapis.com/css2?family=Cabin+Sketch);
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
-@import url(https://fonts.googleapis.com/css2?family=Poiret+One); */
 
-/* 
-Naum Brush Script @import url(https://fonts.googleapis.com/css2?family=Nanum+Brush+Script)
-Schoolbell @import url(https://fonts.googleapis.com/css2?family=Schoolbell)
-Special Elite  @import url(https://fonts.googleapis.com/css2?family=Special+Elite)
-Fredericka the Great  @import url(https://fonts.googleapis.com/css2?family=Fredericka+the+Great)
-Cabin Sketch @import url(https://fonts.googleapis.com/css2?family=Cabin+Sketch)  
-Bungee Shade @import url(https://fonts.googleapis.com/css2?family=Bungee+Shade)
-*/
+
+/* Variables */
+:root{
+  --h3Color:#f8df6d;
+  --pColor:#fff;
+  --mainFont: 'Rochester', cursive;
+  --contentFont: 'Nanum Brush Script', cursive;
+}
 
 /* changes in html elements */
 
@@ -40,19 +33,16 @@ ul {
   display: grid;
   grid-template-rows: repeat(3, auto);
   grid-template-columns: repeat(3,1fr);
-  /* background: #c24e4e; */
 
 }
 
 #zen-supporting{
   margin-top: 2%;
 
-  
   border-top-width: 5px;
   border-top-style: dotted;
   border-top-color: #cfb53b;
   
-
   border-bottom-width: 5px;
   border-bottom-style: dotted;
   border-bottom-color: #cfb53b;
@@ -61,13 +51,13 @@ ul {
 #zen-supporting h3{
   font-family: Rochester;  
   font-size:40px;
-  color: aliceblue;
+  color:var(--h3Color);
 }
 
 #zen-supporting p{
-  font-family: Nanum Brush Script ;  
+  font-family: var(--contentFont) ;  
   font-size: 32px;
-  color: aliceblue;
+  color: var(--pColor);
 }
 
 #zen-supporting footer{
@@ -88,7 +78,7 @@ ul {
   
 }
 .intro h1 {
-  font-family: Rochester,cursive;
+  font-family: var(--mainFont);
   font-style: normal;
   font-weight: normal;
   font-size: 65px;
@@ -100,7 +90,7 @@ ul {
   margin-top:-3rem;
   margin-right: 1rem;
 
-  font-family: Rochester,cursive;
+  font-family: var(--mainFont);
   font-style: normal;
   font-weight: normal;
   font-size: 32px;
@@ -114,13 +104,11 @@ ul {
   margin-left: 5rem;
   padding-left: 2rem;
 
-
-  font-family: Nanum Brush Script,cursive;
+  font-family: var(--contentFont);
   font-style: normal;
   font-weight: normal;
   font-size: 27px;
   color: aliceblue;
-
 
   border-left-width: 3px;
   border-left-style: dashed;
@@ -141,19 +129,16 @@ ul {
 .preamble h3{
   font-family: Rochester;  
   font-size: 40px;
-  color: aliceblue;
+  color: #f8df6d;
 }
 .preamble p{
-  font-family: Nanum Brush Script, cursive ;  
+  font-family: var(--contentFont) ;  
   font-size: 32px;
   color: aliceblue;
 }
 
 .explanation{
-  margin: 1%;
- 
-
-  
+  margin: 1%;  
 }
 
 .participation{
@@ -235,10 +220,13 @@ ul {
 .supporting footer {
   margin-bottom:15px;
 }
+.sidebar a{
+  color:#fff;
+}
 .sidebar h3{
   font-family: Rochester;  
   font-size: 40px;
-  color: aliceblue;
+  color: #cfb53b;
 }
 
 .wrapper{
